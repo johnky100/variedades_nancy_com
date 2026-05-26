@@ -117,3 +117,4 @@ retail_business_analytics/
 La siguiente figura presenta la evolución semestral de las actividades estratégicas, operativas y analíticas desarrolladas en Almacén Nancy.com entre 2021 y 2025. El esquema resume los principales procesos implementados relacionados con análisis estadístico, monitoreo comercial, control de inventarios, seguimiento de KPI y soporte estratégico para la toma de decisiones en un entorno retail post-pandemia.
 
 ![Resumen metodológico](images/plan_metodologico_semestral.png)
+[Ver imagen en Google Drive](https://drive.google.com/file/d/1Y_4fdnbE67aPKvuGwXYK67FIMlF4pTrU/view?usp=sharing)

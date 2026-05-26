@@ -1,0 +1,454 @@
+---
+title: "Informe Técnico y Metodológico"
+subtitle: "Evolución semestral de actividades estratégicas y analíticas para el crecimiento del Almacen Nancy.com"
+author: "JOHN JAIRO PRADO PIÑERES"
+date: "`r Sys.Date()`"
+
+output:
+  html_document:
+    theme: flatly
+    toc: true
+    toc_depth: 2
+    number_sections: false
+    toc_float:
+      collapsed: false
+      smooth_scroll: true
+
+editor_options:
+  chunk_output_type: console
+---
+
+<style>
+
+/* Configuración general del documento */
+
+body {
+  background-color: #F5F5F5;
+  color: #333333;
+  font-family: Arial, sans-serif;
+  font-size: 12pt;
+  line-height: 1.7;
+  margin: 40px;
+  text-align: justify;
+}
+
+/* Títulos principales */
+
+h1 {
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #1F3A5F;
+  margin-top: 35px;
+  margin-bottom: 20px;
+}
+
+/* Subtítulos */
+
+h2 {
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #2E5C8A;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+/* Encabezados internos */
+
+h3 {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: #3E6B99;
+  margin-top: 25px;
+  margin-bottom: 12px;
+}
+
+/* Párrafos */
+
+p {
+  font-family: Arial, sans-serif;
+  font-size: 12pt;
+  text-align: justify;
+  margin-bottom: 12px;
+}
+
+/* Listas */
+
+ul {
+  font-family: Arial, sans-serif;
+  font-size: 12pt;
+  margin-bottom: 15px;
+}
+
+li {
+  margin-bottom: 6px;
+}
+
+/* Tabla de contenido */
+
+#TOC {
+  background-color: #FFFFFF;
+  border: 1px solid #D9D9D9;
+  border-radius: 10px;
+  padding: 15px;
+  font-size: 12pt;
+}
+
+/* Código */
+
+pre {
+  font-size: 12px;
+  background-color: #F0F0F0;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+/* Bloques de código */
+
+code {
+  font-family: Consolas, monospace;
+  font-size: 12px;
+  color: #C7254E;
+}
+
+/* Tablas */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th {
+  background-color: #DCE6F1;
+  color: #000000;
+  padding: 10px;
+  border: 1px solid #B8CBE0;
+}
+
+td {
+  padding: 10px;
+  border: 1px solid #D9D9D9;
+}
+
+/* Separación visual */
+
+hr {
+  border: 0;
+  height: 1px;
+  background: #D9D9D9;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+</style>
+
+```{r limpiar_entorno, echo=FALSE}
+
+rm(list = ls()) # Limpiar entorno de trabajo
+
+graphics.off() # Cerrar ventanas gráficas abiertas
+
+gc() # Liberar memoria
+
+options(scipen = 999) # Evitar notación científica
+
+```
+
+# **Introducción**
+
+El presente informe describe la evolución semestral de las actividades estratégicas, operativas y analíticas desarrolladas en Almacén Nancy.com durante el periodo comprendido entre el 1 de febrero de 2021 y el 28 de febrero de 2025.
+
+El proceso estuvo orientado al fortalecimiento del negocio mediante metodologías de análisis de datos, estadística aplicada, monitoreo comercial, control operativo y soporte estratégico para la toma de decisiones.
+
+Por criterios de confidencialidad y protección de información estratégica de la organización, no se presentan datos financieros absolutos ni métricas sensibles. No obstante, se describen los principales procesos implementados, resultados obtenidos e impactos organizacionales alcanzados durante el periodo evaluado.
+
+# Resumen metodológico
+
+<div style="text-align: center; margin-top: 30px; margin-bottom: 40px;">
+
+<img 
+src="https://drive.google.com/uc?export=view&id=1Y_4fdnbE67aPKvuGwXYK67FIMlF4pTrU"
+width="95%"
+style="
+border-radius: 12px;
+box-shadow: 0px 4px 14px rgba(0,0,0,0.15);
+">
+
+</div>
+
+
+# **Contexto post-pandemia COVID-19**
+
+La experiencia laboral desarrollada se llevó a cabo en un escenario de recuperación económica posterior a la pandemia COVID-19, caracterizado por:
+
+- cambios en patrones de consumo,
+- variabilidad en la demanda,
+- fluctuaciones comerciales,
+- ajustes en abastecimiento e inventarios,
+- necesidad de fortalecer procesos analíticos y operativos.
+
+En respuesta a este contexto, la organización fortaleció procesos relacionados con:
+
+- calidad y validación de datos,
+- análisis estadístico,
+- monitoreo de KPI,
+- análisis histórico de ventas,
+- evaluación de estrategias comerciales,
+- generación de reportes técnicos.
+
+# Primer semestre 2021
+
+## **Febrero 2021 – Julio 2021**
+
+### **Etapa**
+
+Estabilización operativa y reorganización comercial en contexto post-pandemia.
+
+### **Descripción**
+
+Durante este periodo inicial, la organización enfrentó efectos derivados del contexto de recuperación económica posterior a la pandemia COVID-19, caracterizados por cambios en el comportamiento de consumo, variaciones en la demanda y ajustes operativos relacionados con abastecimiento e inventarios.
+
+En respuesta a este escenario, se desarrollaron actividades orientadas a organizar, depurar y consolidar la información comercial y operativa para fortalecer la capacidad de monitoreo y análisis del negocio.
+
+### **Actividades realizadas**
+
+- Recolección y consolidación de registros históricos de ventas e inventarios.
+- Identificación de inconsistencias en bases de datos comerciales.
+- Estandarización de formatos de productos, categorías y registros operativos.
+- Eliminación de duplicados y validación inicial de información.
+- Organización de reportes básicos de ventas y abastecimiento.
+- Monitoreo preliminar del comportamiento comercial en contexto post-pandemia.
+- Seguimiento de variaciones de demanda en categorías estratégicas.
+
+### **Impacto en el negocio**
+
+- Mejora en la calidad y confiabilidad de la información.
+- Mayor control sobre registros comerciales y operativos.
+- Reducción de inconsistencias administrativas.
+- Fortalecimiento de la capacidad de monitoreo comercial.
+- Mejor adaptación operativa frente a cambios de demanda.
+
+# **Segundo semestre 2021**
+
+## **Agosto 2021 – Enero 2022**
+
+### **Etapa**
+
+Análisis del comportamiento comercial y adaptación al mercado.
+
+### **Descripción**
+
+Durante este periodo se fortalecieron procesos de análisis estadístico orientados a comprender el comportamiento de ventas y consumo en un entorno de recuperación económica y cambios de hábitos de compra posteriores a la pandemia.
+
+### **Actividades realizadas**
+
+- Desarrollo de análisis exploratorios de ventas.
+- Identificación de productos de alta y baja rotación.
+- Evaluación de categorías con mayor crecimiento comercial.
+- Análisis temporal de comportamiento de ventas.
+- Segmentación inicial de productos y categorías.
+- Monitoreo de cambios de demanda asociados al contexto post-pandemia.
+- Evaluación de tendencias de consumo y comportamiento comercial.
+
+### **Impacto en el negocio**
+
+- Identificación de categorías estratégicas para el negocio.
+- Mejora en decisiones relacionadas con compras y abastecimiento.
+- Optimización inicial del control de inventarios.
+- Mayor comprensión del comportamiento del consumidor.
+- Fortalecimiento de la capacidad de respuesta frente a cambios comerciales.
+
+# **Primer semestre 2022**
+
+## **Febrero 2022 – Julio 2022**
+
+### **Etapa**
+
+Implementación de indicadores de gestión y fortalecimiento operativo.
+
+### **Descripción**
+
+Durante esta etapa se estructuró un sistema de monitoreo mediante indicadores cuantitativos para evaluar desempeño comercial y operativo en un contexto donde aún persistían efectos económicos y logísticos derivados de la pandemia COVID-19.
+
+### **Actividades realizadas**
+
+- Diseño de KPI comerciales y operativos.
+- Construcción de métricas de ventas y rotación.
+- Seguimiento de indicadores de abastecimiento.
+- Evaluación periódica de desempeño comercial.
+- Consolidación de métricas de inventarios.
+- Implementación de monitoreo continuo de indicadores.
+- Seguimiento de estabilidad operativa y comercial.
+
+### **Impacto en el negocio**
+
+- Mayor capacidad de seguimiento operativo.
+- Identificación temprana de desviaciones comerciales.
+- Mejora en control de inventarios y abastecimiento.
+- Fortalecimiento del soporte cuantitativo para gerencia.
+- Mayor estabilidad en monitoreo comercial y operativo.
+
+# **Segundo semestre 2022**
+
+## **Agosto 2022 – Enero 2023**
+
+### **Etapa**
+
+Optimización de inventarios y fortalecimiento del abastecimiento.
+
+### **Descripción**
+
+Una vez finalizada oficialmente la emergencia sanitaria en Colombia, la organización fortaleció procesos de análisis histórico de ventas para estabilizar inventarios y optimizar el abastecimiento en un escenario de recuperación y normalización operativa.
+
+### **Actividades realizadas**
+
+- Análisis histórico de ventas y demanda.
+- Evaluación de tendencias y estacionalidad.
+- Monitoreo de rotación de inventario.
+- Identificación de productos críticos y baja rotación.
+- Análisis de cobertura y abastecimiento.
+- Generación de recomendaciones de reposición.
+- Evaluación de comportamiento histórico de categorías comerciales.
+
+### **Impacto en el negocio**
+
+- Reducción de riesgos de desabastecimiento.
+- Mejor planificación de compras.
+- Optimización del control de inventarios.
+- Fortalecimiento de la eficiencia operativa.
+- Mejora en estabilidad de abastecimiento.
+
+# **Primer semestre 2023**
+
+## **Febrero 2023 – Julio 2023**
+
+### **Etapa**
+
+Fortalecimiento de reportes técnicos y soporte gerencial.
+
+### **Actividades realizadas**
+
+- Construcción de informes analíticos.
+- Integración de KPI y análisis estadísticos.
+- Elaboración de reportes ejecutivos.
+- Consolidación de análisis comparativos.
+- Interpretación de tendencias comerciales.
+- Generación de recomendaciones estratégicas.
+- Fortalecimiento del seguimiento cuantitativo gerencial.
+
+### **Impacto en el negocio**
+
+- Mejora en procesos de toma de decisiones.
+- Reducción de tiempos de consolidación de información.
+- Fortalecimiento del monitoreo estratégico.
+- Mayor capacidad de análisis gerencial.
+- Optimización de seguimiento comercial y operativo.
+
+# **Segundo semestre 2023**
+
+## **Agosto 2023 – Enero 2024**
+
+### **Etapa**
+
+Evaluación cuantitativa de estrategias comerciales.
+
+### Actividades realizadas
+
+- Análisis comparativo de campañas comerciales.
+- Evaluación de promociones y descuentos.
+- Medición de impacto sobre ventas y rotación.
+- Seguimiento de comportamiento comercial antes y después de campañas.
+- Evaluación de rentabilidad promocional.
+- Generación de recomendaciones comerciales.
+- Análisis de desempeño de estrategias de ventas.
+
+### **Impacto en el negocio**
+
+- Optimización de promociones comerciales.
+- Mejora en evaluación de rentabilidad.
+- Fortalecimiento de estrategias comerciales basadas en datos.
+- Mayor control sobre comportamiento de ventas.
+- Mejor capacidad de evaluación de campañas comerciales.
+
+# **Primer semestre 2024**
+
+## **Febrero 2024 – Julio 2024**
+
+### **Etapa**
+
+Visualización analítica y fortalecimiento de comunicación estratégica.
+
+### **Actividades realizadas**
+
+- Construcción de visualizaciones analíticas.
+- Elaboración de informes técnicos en PDF y HTML.
+- Organización de reportes comerciales y operativos.
+- Consolidación de análisis visuales de tendencias.
+- Validación metodológica de información presentada.
+- Comunicación de resultados a equipos administrativos.
+- Fortalecimiento de procesos de interpretación estratégica.
+
+### **Impacto en el negocio**
+
+- Mejora en interpretación de información estratégica.
+- Mayor accesibilidad a resultados analíticos.
+- Fortalecimiento del monitoreo gerencial.
+- Optimización de comunicación interna.
+- Mejora en seguimiento de indicadores comerciales.
+
+# **Segundo semestre 2024 – Primer bimestre 2025**
+
+## **Agosto 2024 – Febrero 2025**
+
+### **Etapa**
+
+Consolidación analítica y fortalecimiento estratégico.
+
+### **Actividades realizadas**
+
+- Integración de procesos analíticos comerciales y operativos.
+- Seguimiento continuo de KPI estratégicos.
+- Fortalecimiento de análisis históricos y comparativos.
+- Optimización de reportes gerenciales.
+- Monitoreo continuo de tendencias comerciales.
+- Consolidación de procesos de análisis cuantitativo.
+- Evaluación continua de desempeño organizacional.
+
+### Impacto en el negocio
+
+- Fortalecimiento de la toma de decisiones basada en datos.
+- Mejora continua de procesos comerciales y operativos.
+- Incremento de capacidad analítica organizacional.
+- Consolidación de procesos de monitoreo estratégico.
+- Mayor estabilidad y control operativo.
+- Fortalecimiento de la gestión comercial basada en análisis cuantitativo.
+
+# **Conclusión**
+
+Entre febrero de 2021 y febrero de 2025 se desarrolló una evolución progresiva de procesos analíticos y estratégicos orientados al fortalecimiento y crecimiento de Almacén Nancy.com en un contexto de recuperación económica posterior a la pandemia COVID-19.
+
+Las actividades desarrolladas permitieron consolidar capacidades relacionadas con:
+
+- calidad y procesamiento de datos,
+- análisis estadístico aplicado,
+- monitoreo de indicadores de gestión,
+- análisis histórico de ventas,
+- evaluación cuantitativa de estrategias comerciales,
+- generación de reportes técnicos y visualizaciones analíticas.
+
+Como resultado, la organización fortaleció significativamente sus procesos de monitoreo comercial, control operativo, abastecimiento y soporte estratégico basado en análisis cuantitativo y gestión de información.
+
+# **Consideraciones de confidencialidad**
+
+La información presentada en este documento tiene carácter metodológico y descriptivo. Por criterios de confidencialidad empresarial y protección de información estratégica, no se incluyen:
+
+- bases de datos reales,
+- métricas financieras absolutas,
+- información de clientes,
+- indicadores sensibles,
+- procesos internos específicos.
+
+El contenido se presenta exclusivamente con fines académicos, profesionales y de documentación metodológica.
